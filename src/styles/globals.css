@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.table-data {
+  @apply border-[2px] border-black  w-full text-center p-1;
+}
+
+.table-row{
+  @apply flex flex-row  justify-around text-[1.2rem];
+}
+
+.table-heading{
+  @apply flex flex-row  justify-around font-semibold text-[1.2rem] rounded-lg;
+}
